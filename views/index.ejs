@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecentralFund</title>
+</head>
+<body>
+  <h1>Welcome to DecentralFund</h1>
+
+  <h2>Create Campaign</h2>
+  <form action="/create-campaign" method="POST">
+    <input type="text" name="title" placeholder="Title" required>
+    <input type="text" name="description" placeholder="Description" required>
+    <input type="number" name="targetAmount" placeholder="Target Amount (ETH)" required>
+    <input type="datetime-local" name="deadline" placeholder="Deadline" required>
+    <button type="submit">Create Campaign</button>
+  </form>
+
+  <!-- Additional forms and data displays for contribute, withdraw, refund, etc. -->
+</body>
+</html>
